@@ -1,0 +1,36 @@
+.login>.wrapper {
+    max-width: var(--main-wrapper);
+    margin: 0 auto;
+}
+
+.login>.wrapper>.header {
+    height: var(--header-size);
+    width: 100%;
+    background-color: green;
+
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.login>.wrapper>.header>.hearder-wrapper {
+    max-width: var(--main-wrapper);
+    margin: 0 auto;
+    background-color: greenyellow;
+}
+
+.login>.wrapper>.main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: var(--header-size);
+}
+
+.login>.wrapper>.main-content>.left {
+    background-color: yellow;
+}
+
+.login>.wrapper>.main-content>.right {
+    background-color: blueviolet;
+}
